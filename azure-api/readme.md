@@ -88,7 +88,6 @@
 A simple AI Chat using Azure GPT API and NodeJS packages
 
 
-
 ### Built With
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -100,9 +99,6 @@ A simple AI Chat using Azure GPT API and NodeJS packages
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
