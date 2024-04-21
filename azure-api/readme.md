@@ -201,7 +201,18 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Bernardo Alvim - [@alvim_brn](https://instagram.com/alvim_brn) - alvim103@gmail.com
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://https://alvimdev.github.io/alvimdev/portifolio/">
+        <img src="https://i.pinimg.com/236x/23/ec/9e/23ec9edddafdfc8e3b2c50932f249ee0.jpg" width="100px;" alt="Manhwa charater of my GitHub pfp"/><br>
+        <sub>
+          <b>Alvim</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 Project Link: [https://github.com/alvim-puc/ioasys/azure-api](https://github.com/alvim-puc/ioasys/new/main/azure-api)
 
