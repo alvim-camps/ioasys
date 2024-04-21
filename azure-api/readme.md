@@ -204,7 +204,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <table>
   <tr>
     <td align="center">
-      <a href="https://https://alvimdev.github.io/alvimdev/portifolio/">
+      <a href="https://alvimdev.github.io/alvimdev/portifolio/">
         <img src="https://i.pinimg.com/236x/23/ec/9e/23ec9edddafdfc8e3b2c50932f249ee0.jpg" width="100px;" alt="Manhwa charater of my GitHub pfp"/><br>
         <sub>
           <b>Alvim</b>
