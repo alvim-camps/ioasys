@@ -14,11 +14,10 @@ const getAPIMessage = async (message) => {
             message,
             {
                 temperature: 0,
-                maxTokens: 80,
+                maxTokens: 55,
             }
         )
 
-        response.choices[0].text.trim()
         return response.choices[0].text.trim()
     } catch (err) {
         console.error(err)
@@ -36,20 +35,26 @@ const askQuestion = (question) => {
     })
 }
 
+
+const green = '\x1b[32m';
+const red = '\x1b[31m';
+const reset = '\x1b[0m';
+
+
 (async () => {
-    console.log('Bem vindo ao IAberta! \nFaça sua pergunta: \n');
+    console.log(green + 'Bem vindo ao ' + red + 'IAberta!' + green + '\nFaça sua pergunta: ' + reset);
 
     try{
         while (true) {
-            const userInput = await askQuestion('you: ')
+            const userInput = await askQuestion('\n' + green + '> ' + reset)
             
             if(userInput === 'sair'){
                 rl.close()
-                console.log('Até mais!')
+                console.log('\n' + red + 'Até mais!')
                 break
             } else { 
                 const botResponse = await getAPIMessage(userInput)
-                console.log('bot: ' + botResponse)
+                console.log('\n' + red + '> ' + reset + botResponse)
             }
         }
     } catch (err) {
