@@ -39,27 +39,34 @@ const askQuestion = (question) => {
 const green = '\x1b[32m';
 const red = '\x1b[31m';
 const reset = '\x1b[0m';
+const SUCESSO = 0;
+
+
+welcome =  () => {
+    console.clear()
+    console.log(green + 'Bem vind@ ao ' + red + 'IABerta!' + green + '\nFaça sua pergunta: ' + reset)
+}
 
 
 (async () => {
-    console.log(green + 'Bem vindo ao ' + red + 'IAberta!' + green + '\nFaça sua pergunta: ' + reset);
+    welcome()
 
     try{
         while (true) {
             const userInput = await askQuestion('\n' + green + '> ' + reset)
             
-            if(userInput === 'sair'){
+            if(userInput.toLowerCase() === 'sair' || userInput.toLowerCase() === 'exit')
+            {
                 rl.close()
                 console.log('\n' + red + 'Até mais!')
-                break
-            } else { 
-                const botResponse = await getAPIMessage(userInput)
-                console.log('\n' + red + '> ' + reset + botResponse)
-            }
+                process.exit(SUCESSO)
+            } 
+            else if (userInput === 'clear' || userInput === 'clr' || userInput === 'cls') welcome()
+            else console.log('\n' + red + '> ' + reset + (await getAPIMessage(userInput)))
         }
     } catch (err) {
-        console.error(err)
         rl.close()
+        console.error(err)
         process.exit(1)
     }
 })()
