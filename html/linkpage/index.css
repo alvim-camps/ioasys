@@ -59,10 +59,8 @@ body {
     padding: 0 12%;
 } 
 .card ul > li {
-    li {
-        margin-bottom: 20px;
-        border-radius: 12px;
-        padding: 10px 20px;
-        background-color: #444;
-    }
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-color: #444;
 }
