@@ -1,0 +1,22 @@
+.list {
+    list-style: none;
+    padding: 0 12%;
+} 
+
+.list a{
+    font-weight: bolder;
+    color: antiquewhite;
+    text-decoration: none;
+    transition: 300ms;
+}
+.list a:hover {
+    color: goldenrod;
+    transition: 300ms;
+}
+
+.item {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-color: #444;
+}
