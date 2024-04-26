@@ -1,5 +1,5 @@
 import styles from '../assets/css/card.module.css'
-import { Links } from './links'
+import { List } from './list'
 
 import pfp from '../assets/atreides.png'
 
@@ -10,7 +10,7 @@ export function Card() {
             <h1>Bernardo Alvim</h1>
             <h2>Belo Horizonte, Brazil</h2>
             <p>"Front-end Developer and manhwa reader at spare time."</p>
-            <Links/>
+            <List nLinks={5}/>
         </article>
     )
 }
