@@ -10,7 +10,7 @@ export function Card() {
             <h1>Bernardo Alvim</h1>
             <h2>Belo Horizonte, Brazil</h2>
             <p>"Front-end Developer and manhwa reader at spare time."</p>
-            <List nLinks={5}/>
+            <List/>
         </article>
     )
 }

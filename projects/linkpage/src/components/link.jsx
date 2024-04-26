@@ -1,3 +1,3 @@
-export function Link({url, placeholder}) {
-    return <a target="_blank" href={url}>{placeholder}</a>
+export function Link({url, children}) {
+    return <a target="_blank" href={url}>{children}</a>
 }

@@ -1,9 +1,8 @@
 import styles from '../assets/css/list.module.css'
 import { Link } from "./link";
 
-export function Item({type, index}) {
-
-    const link = [
+export function Item() {
+    const links = [
         {placeholder: "GitHub", url: "https://github.com/alvimdev"},
         {placeholder: "Replit", url: "https://replit.com/@alvimdev"},
         {placeholder: "Linkedin", url: "https://linkedin.com/in/bernardo-alvim"},
@@ -12,7 +11,8 @@ export function Item({type, index}) {
 
     ]
 
-    return (
-        <li className={styles.item}>{type == 'a' && <Link placeholder={link[index].placeholder} url={link[index].url}/>}</li>
-    )
+    return links.map(({placeholder, url}, i) => {
+        return <li key={i} className={styles.item}><Link url={url}>{placeholder}</Link></li>
+    })
+    
 }
