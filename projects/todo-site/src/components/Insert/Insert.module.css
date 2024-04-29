@@ -1,0 +1,31 @@
+.err {
+    display: none;
+}
+
+.input {
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    placeholder-color: #999;
+}
+
+
+.button{
+    margin-left: 10px;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: beige;
+    background-color: green;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+}
+
+.form {
+    margin-bottom: 20px;
+}
