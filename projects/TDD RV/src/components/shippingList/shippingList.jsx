@@ -1,4 +1,5 @@
 import React from "react";
+import './shippinglist.module.css'
 
 export function ShippingList({ shippingList, onRemoveItem }) {
   // ...

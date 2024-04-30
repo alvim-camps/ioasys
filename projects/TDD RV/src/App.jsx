@@ -7,9 +7,9 @@ function App() {
   const [shippingList, setShippingList] = useState([]);
 
   const handleRemoveItem = (index) => {
-    const updatedShippingList = [...shippingList];
-    updatedShippingList.splice(index, 1);
-    setShippingList(updatedShippingList);
+    const updatedShippingList = [...shippingList]; // Cria uma cópia da lista
+    updatedShippingList.splice(index, 1); // Remove o item no índice especificado
+    setShippingList((updatedShippingList)); // Atualiza o estado com a lista modificada
   };
 
   return (

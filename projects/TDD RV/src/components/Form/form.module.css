@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type='text'], input[type='number']{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    placeholder-color: #999;
+}
+
+input[type='submit']{
+    border: 0;
+    border-radius: 8px;
+    height: 35px;
+    color: beige;
+    background-color: green;
+}
+input[type='submit']:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.error {
+    display: none;
+}
