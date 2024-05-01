@@ -1,0 +1,25 @@
+{
+  "name": "tdd-lastfm",
+  "version": "0.1.0",
+  "description": "testes unitarios da api do last.fm",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvim-puc/ioasys.git"
+  },
+  "author": "Bernardo Alvim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvim-puc/ioasys/issues"
+  },
+  "homepage": "https://github.com/alvim-puc/ioasys#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "supertest": "^7.0.0"
+  }
+}
