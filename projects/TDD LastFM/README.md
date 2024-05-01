@@ -6,7 +6,7 @@ Welcome to the LastFM API documentation. This API allows you to access various d
 ## Authentication
 The LastFM API uses API keys for authentication. You need to sign up for an API key to access the API endpoints. To authenticate your requests, include your API key in the request headers.
 
-````API Key: YOUR_API_KEY```
+```API Key: YOUR_API_KEY```
 
 ## Base URL
 The base URL for LastFM API is: [https://ws.audioscrobbler.com/2.0/](https://ws.audioscrobbler.com/2.0/)
